@@ -18,7 +18,7 @@ module.exports = function(passport){
                     }
                 })
             }else{
-                res.status(400).send("Unknown");
+                res.status(400).send("Login Error");
             }
 
         })(req, res, next);

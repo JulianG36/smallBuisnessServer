@@ -8,7 +8,7 @@ const menuRoute = require("./routes/menuRoute");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
-
+const databaseUsers = "mongodb+srv://julianG36:Mariano14@cluster0.phtht.mongodb.net/SmallBuisness?retryWrites=true&w=majority";
 const init  = require("./passport/init");
 const jwtHandler = require("./passport/jwtAuthService").jwtHandler;
 app.use(passport.initialize());
